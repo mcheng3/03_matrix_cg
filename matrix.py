@@ -38,6 +38,6 @@ def new_matrix(rows = 4, cols = 4):
     for c in range( cols ):
         m.append( [] )
         for r in range( rows ):
-            m[c].append( i )
+            m[c].append( 0 )
             i += 1
     return m
