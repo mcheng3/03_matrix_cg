@@ -57,7 +57,7 @@ def draw_line( x0, y0, x1, y1, screen, color ):
             d += 2*b
     elif not c and math.fabs(b) < math.fabs(a):
         #print "octet III"
-        print "x: " + str(x) + "  y: " + str(y) + "  d: " + str(d)  + " " + str(y1)
+        #print "x: " + str(x) + "  y: " + str(y) + "  d: " + str(d)  + " " + str(y1)
         while y<=y1:
             #print "x: " + str(x) + "  y: " + str(y) + "  d: " + str(d) 
             plot( screen, color, x, y)
